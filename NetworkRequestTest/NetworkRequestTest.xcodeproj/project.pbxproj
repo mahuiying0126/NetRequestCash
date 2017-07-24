@@ -195,10 +195,10 @@
 		6D556A6A1F21B03300D4E4C9 /* 网络请求 */ = {
 			isa = PBXGroup;
 			children = (
-				6D556A6B1F21B03300D4E4C9 /* MNetRequestModel.h */,
-				6D556A6C1F21B03300D4E4C9 /* MNetRequestModel.m */,
 				6D556A6D1F21B03300D4E4C9 /* MNetSetting.h */,
 				6D556A6E1F21B03300D4E4C9 /* MNetSetting.m */,
+				6D556A6B1F21B03300D4E4C9 /* MNetRequestModel.h */,
+				6D556A6C1F21B03300D4E4C9 /* MNetRequestModel.m */,
 				6D556A6F1F21B03300D4E4C9 /* MNetworkUtils.h */,
 				6D556A701F21B03300D4E4C9 /* MNetworkUtils.m */,
 			);

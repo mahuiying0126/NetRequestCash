@@ -9,10 +9,6 @@
 #import "MNetSetting.h"
 #import "MNetRequestModel.h"
 #import "MNetworkUtils.h"
-@interface MNetSetting ()
-
-
-@end
 
 @implementation MNetSetting
 
@@ -38,7 +34,10 @@
                 if (seting.jsonValidator) {
                    BOOL result = [MNetworkUtils validateJSON:responseData withValidator:seting.jsonValidator];
                     if (result) {
+                        //字段验证正确
                         success(responseData);
+                    }else{
+                        //字段验证不正确
                     }
                 }else{
                     success(responseData);
@@ -69,7 +68,18 @@
                     [MNetRequestModel netRequestSeting:seting success:^(id responseData) {
                         if (responseData != nil) {
                             [weakSelf saveCashDataForArchiver:responseData requestSeting:seting];
-                            success(responseData);
+                            //有字段校验
+                            if (seting.jsonValidator) {
+                                BOOL result = [MNetworkUtils validateJSON:responseData withValidator:seting.jsonValidator];
+                                if (result) {
+                                    //字段验证成功
+                                    success(responseData);
+                                }else{
+                                    //字段验证失败
+                                }
+                            }else{
+                                success(responseData);
+                            }
                             [HUD performSelector:@selector(removeFromSuperview)  withObject:nil afterDelay:0.0];
                         }
                         
@@ -91,7 +101,18 @@
             [MNetRequestModel netRequestSeting:seting success:^(id responseData) {
                 if (responseData != nil) {
                     [weakSelf saveCashDataForArchiver:responseData requestSeting:seting];
-                    success(responseData);
+                     //有字段校验
+                    if (seting.jsonValidator) {
+                        BOOL result = [MNetworkUtils validateJSON:responseData withValidator:seting.jsonValidator];
+                        if (result) {
+                            //字段验证成功
+                            success(responseData);
+                        }else{
+                            //字段验证失败
+                        }
+                    }else{
+                        success(responseData);
+                    }
                     [HUD performSelector:@selector(removeFromSuperview)  withObject:nil afterDelay:0.0];
                 }
             } failure:^(NSError *error) {
@@ -118,6 +139,7 @@
                 //如果有格式验证就进行验证
                 BOOL result = [MNetworkUtils validateJSON:responseData withValidator:seting.jsonValidator];
                 if (result) {
+                    //字段验证成功,进行缓存
                    [NSKeyedArchiver archiveRootObject:responseData toFile:path]; 
                 }else{
                     //格式不正确
@@ -190,7 +212,7 @@
 - (NSString *)cacheFileName{
     
     NSString *requestInfo = [NSString stringWithFormat:@"%@%@",self.hostUrl,self.paramet];
-    NSLog(@"%@",[MNetworkUtils md5StringFromString:requestInfo]);
+//    NSLog(@"%@",[MNetworkUtils md5StringFromString:requestInfo]);
     return [MNetworkUtils md5StringFromString:requestInfo];
 
 }

@@ -66,7 +66,9 @@ typedef NS_ENUM(NSUInteger, MRequesttMethod) {
  */
 -(void)requestDataFromHostURL:(NSString *)url
                  andParameter:(NSDictionary *)parameter
-                      success:(void (^)(id responseData))success failure:(void (^)(NSError *error))failure netSeting:(MNetSetting *)seting;
+                      success:(void (^)(id responseData))success
+                      failure:(void (^)(NSError *error))failure
+                    netSeting:(MNetSetting *)seting;
 
 /**
  wifi网络是否可用
