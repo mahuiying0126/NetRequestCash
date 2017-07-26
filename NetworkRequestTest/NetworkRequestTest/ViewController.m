@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    // http://www.ruidaedu.com/app/course/assess/list?courseId=33&page.currentPage=1
+
     self.currentPage = 1;
     self.tableViewM = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64) style:UITableViewStylePlain];
     [self.view addSubview:self.tableViewM];
