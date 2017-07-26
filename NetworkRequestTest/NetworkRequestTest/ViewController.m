@@ -64,8 +64,9 @@
 -(void)loadDataforUrl{
     
     MNetSetting *seting = [[MNetSetting alloc]init];
-    NSString *hostUrl =  @"";
-    NSDictionary *paramet = @{};
+    NSString *hostUrl =  @"请求地址";
+    NSDictionary *paramet = @{};//参数
+    //seting.jsonValidator = @{};//json格式验证
     seting.cashSeting = MCacheSave;
     seting.isRefresh = self.isRefresh;
     __weak typeof(self) weakSelf = self;
