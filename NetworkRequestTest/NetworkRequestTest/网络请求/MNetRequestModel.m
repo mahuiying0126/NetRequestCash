@@ -36,11 +36,11 @@
     
     if (seting.requestStytle == MRequestMethodPOST) {
         [manager POST:seting.hostUrl parameters:seting.paramet progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
-            
-            if (success != nil){
+            NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)task.response;
+            NSInteger responseStatusCode = [httpResponse statusCode];
+            if (success != nil && responseStatusCode == 200){
                 success(responseObject);
             }
-            
             
         }failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error){
             
@@ -52,12 +52,11 @@
         
     }else{
         [manager GET:seting.hostUrl parameters:seting.paramet progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
-            
-            if (success != nil){
+            NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)task.response;
+            NSInteger responseStatusCode = [httpResponse statusCode];
+            if (success != nil && responseStatusCode == 200){
                 success(responseObject);
             }
-            
-            
         }failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error){
             
             if (failure != nil)
