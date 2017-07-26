@@ -40,9 +40,9 @@ typedef NS_ENUM(NSUInteger, MRequesttMethod) {
 @property (nonatomic, assign) BOOL isHttpsRequest;
 /** *缓存设置策略*/
 @property (nonatomic, assign) MCashTime cashSeting;
-/** *是否刷新数据*/
+/** *是否刷新数据;YES,刷新数据,重新缓存;NO,反之*/
 @property (nonatomic, assign) BOOL isRefresh;
-/** *是否读取缓存*/
+/** *是否读取缓存;YES:读取缓存;NO:反之*/
 @property (nonatomic, assign) BOOL isReadCash;
 /** *缓存时间*/
 @property (nonatomic, assign) NSInteger cashTime;

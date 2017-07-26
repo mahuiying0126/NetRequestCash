@@ -66,22 +66,13 @@
     MNetSetting *seting = [[MNetSetting alloc]init];
     NSString *hostUrl =  @"请求地址";
     NSDictionary *paramet = @{};//参数
-    //seting.jsonValidator = @{};//json格式验证
+    seting.jsonValidator = @{};//json格式验证
     seting.cashSeting = MCacheSave;
     seting.isRefresh = self.isRefresh;
     __weak typeof(self) weakSelf = self;
     [seting requestDataFromHostURL:hostUrl andParameter:paramet success:^(id responseData) {
-        NSDictionary *entity = responseData[@"entity"];
-        NSArray *data = entity[@"assessList"];
-        NSDictionary *page = entity[@"page"];
-        weakSelf.totlePage = [page[@"totalPageSize"] integerValue];
-        weakSelf.currentPage = [page[@"currentPage"] integerValue];
-        if (weakSelf.isRefresh) {
-            [weakSelf.dataArray removeAllObjects];
-            weakSelf.dataArray = data.mutableCopy;
-        }else{
-            [weakSelf.dataArray addObjectsFromArray:data];
-        }
+        //数据处理
+        
         [weakSelf.tableViewM reloadData];
     } failure:^(NSError *error) {
         

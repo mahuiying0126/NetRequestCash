@@ -58,7 +58,7 @@
         BOOL isFileExist = [fileManager fileExistsAtPath:path isDirectory:nil];
         __weak typeof(self) weakSelf = self;
         //如果存在,再检查文件有没有过期,日期间隔根据自己定的
-        if ((isFileExist && !seting.isRefresh) || !seting.isReadCash) {
+        if ((isFileExist && !seting.isRefresh) || seting.isReadCash) {
             id data = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
             if (data != nil) {
                 //如果没达到指定日期返回-1，刚好是这一时间，返回0，否则返回1
