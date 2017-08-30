@@ -17,9 +17,9 @@
 		6D556A571F21AAD800D4E4C9 /* NetworkRequestTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A561F21AAD800D4E4C9 /* NetworkRequestTestUITests.m */; };
 		6D556A681F21B00E00D4E4C9 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A661F21B00E00D4E4C9 /* MBProgressHUD+MJ.m */; };
 		6D556A691F21B00E00D4E4C9 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D556A671F21B00E00D4E4C9 /* MBProgressHUD.bundle */; };
-		6D556A711F21B03300D4E4C9 /* MNetRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A6C1F21B03300D4E4C9 /* MNetRequestModel.m */; };
-		6D556A721F21B03300D4E4C9 /* MNetSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A6E1F21B03300D4E4C9 /* MNetSetting.m */; };
-		6D556A731F21B03300D4E4C9 /* MNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A701F21B03300D4E4C9 /* MNetworkUtils.m */; };
+		6DE9F4B51F56D56F00ECED8A /* MNetRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4B01F56D56F00ECED8A /* MNetRequestModel.m */; };
+		6DE9F4B61F56D56F00ECED8A /* MNetSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4B21F56D56F00ECED8A /* MNetSetting.m */; };
+		6DE9F4B71F56D56F00ECED8A /* MNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4B41F56D56F00ECED8A /* MNetworkUtils.m */; };
 		F4D0BAA7D1175D563E1097B5 /* libPods-NetworkRequestTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCA8AC68AE48491EA58F735 /* libPods-NetworkRequestTest.a */; };
 /* End PBXBuildFile section */
 
@@ -62,13 +62,13 @@
 		6D556A651F21B00E00D4E4C9 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		6D556A661F21B00E00D4E4C9 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		6D556A671F21B00E00D4E4C9 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		6D556A6B1F21B03300D4E4C9 /* MNetRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetRequestModel.h; sourceTree = "<group>"; };
-		6D556A6C1F21B03300D4E4C9 /* MNetRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetRequestModel.m; sourceTree = "<group>"; };
-		6D556A6D1F21B03300D4E4C9 /* MNetSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetSetting.h; sourceTree = "<group>"; };
-		6D556A6E1F21B03300D4E4C9 /* MNetSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetSetting.m; sourceTree = "<group>"; };
-		6D556A6F1F21B03300D4E4C9 /* MNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetworkUtils.h; sourceTree = "<group>"; };
-		6D556A701F21B03300D4E4C9 /* MNetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetworkUtils.m; sourceTree = "<group>"; };
 		6D556A741F21B05A00D4E4C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6DE9F4AF1F56D56F00ECED8A /* MNetRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetRequestModel.h; sourceTree = "<group>"; };
+		6DE9F4B01F56D56F00ECED8A /* MNetRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetRequestModel.m; sourceTree = "<group>"; };
+		6DE9F4B11F56D56F00ECED8A /* MNetSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetSetting.h; sourceTree = "<group>"; };
+		6DE9F4B21F56D56F00ECED8A /* MNetSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetSetting.m; sourceTree = "<group>"; };
+		6DE9F4B31F56D56F00ECED8A /* MNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetworkUtils.h; sourceTree = "<group>"; };
+		6DE9F4B41F56D56F00ECED8A /* MNetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetworkUtils.m; sourceTree = "<group>"; };
 		779944622D581677858F6281 /* Pods-NetworkRequestTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestTest/Pods-NetworkRequestTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +140,7 @@
 		6D556A301F21AAD800D4E4C9 /* NetworkRequestTest */ = {
 			isa = PBXGroup;
 			children = (
-				6D556A6A1F21B03300D4E4C9 /* 网络请求 */,
+				6DE9F4AE1F56D56F00ECED8A /* MNetwork */,
 				6D556A641F21B00E00D4E4C9 /* MBProgressHUD */,
 				6D556A341F21AAD800D4E4C9 /* AppDelegate.h */,
 				6D556A351F21AAD800D4E4C9 /* AppDelegate.m */,
@@ -192,17 +192,17 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		6D556A6A1F21B03300D4E4C9 /* 网络请求 */ = {
+		6DE9F4AE1F56D56F00ECED8A /* MNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				6D556A6D1F21B03300D4E4C9 /* MNetSetting.h */,
-				6D556A6E1F21B03300D4E4C9 /* MNetSetting.m */,
-				6D556A6B1F21B03300D4E4C9 /* MNetRequestModel.h */,
-				6D556A6C1F21B03300D4E4C9 /* MNetRequestModel.m */,
-				6D556A6F1F21B03300D4E4C9 /* MNetworkUtils.h */,
-				6D556A701F21B03300D4E4C9 /* MNetworkUtils.m */,
+				6DE9F4AF1F56D56F00ECED8A /* MNetRequestModel.h */,
+				6DE9F4B01F56D56F00ECED8A /* MNetRequestModel.m */,
+				6DE9F4B11F56D56F00ECED8A /* MNetSetting.h */,
+				6DE9F4B21F56D56F00ECED8A /* MNetSetting.m */,
+				6DE9F4B31F56D56F00ECED8A /* MNetworkUtils.h */,
+				6DE9F4B41F56D56F00ECED8A /* MNetworkUtils.m */,
 			);
-			path = "网络请求";
+			path = MNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,11 +392,11 @@
 			files = (
 				6D556A681F21B00E00D4E4C9 /* MBProgressHUD+MJ.m in Sources */,
 				6D556A391F21AAD800D4E4C9 /* ViewController.m in Sources */,
-				6D556A721F21B03300D4E4C9 /* MNetSetting.m in Sources */,
-				6D556A711F21B03300D4E4C9 /* MNetRequestModel.m in Sources */,
+				6DE9F4B61F56D56F00ECED8A /* MNetSetting.m in Sources */,
+				6DE9F4B51F56D56F00ECED8A /* MNetRequestModel.m in Sources */,
 				6D556A361F21AAD800D4E4C9 /* AppDelegate.m in Sources */,
 				6D556A331F21AAD800D4E4C9 /* main.m in Sources */,
-				6D556A731F21B03300D4E4C9 /* MNetworkUtils.m in Sources */,
+				6DE9F4B71F56D56F00ECED8A /* MNetworkUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
