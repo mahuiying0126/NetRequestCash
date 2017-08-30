@@ -15,11 +15,11 @@
 		6D556A411F21AAD800D4E4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D556A3F1F21AAD800D4E4C9 /* LaunchScreen.storyboard */; };
 		6D556A4C1F21AAD800D4E4C9 /* NetworkRequestTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A4B1F21AAD800D4E4C9 /* NetworkRequestTestTests.m */; };
 		6D556A571F21AAD800D4E4C9 /* NetworkRequestTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A561F21AAD800D4E4C9 /* NetworkRequestTestUITests.m */; };
-		6D556A681F21B00E00D4E4C9 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D556A661F21B00E00D4E4C9 /* MBProgressHUD+MJ.m */; };
-		6D556A691F21B00E00D4E4C9 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D556A671F21B00E00D4E4C9 /* MBProgressHUD.bundle */; };
 		6DE9F4B51F56D56F00ECED8A /* MNetRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4B01F56D56F00ECED8A /* MNetRequestModel.m */; };
 		6DE9F4B61F56D56F00ECED8A /* MNetSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4B21F56D56F00ECED8A /* MNetSetting.m */; };
 		6DE9F4B71F56D56F00ECED8A /* MNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4B41F56D56F00ECED8A /* MNetworkUtils.m */; };
+		6DE9F4BC1F56DCA300ECED8A /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F4BA1F56DCA300ECED8A /* MBProgressHUD+MJ.m */; };
+		6DE9F4BD1F56DCA300ECED8A /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9F4BB1F56DCA300ECED8A /* MBProgressHUD.bundle */; };
 		F4D0BAA7D1175D563E1097B5 /* libPods-NetworkRequestTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCA8AC68AE48491EA58F735 /* libPods-NetworkRequestTest.a */; };
 /* End PBXBuildFile section */
 
@@ -59,9 +59,6 @@
 		6D556A521F21AAD800D4E4C9 /* NetworkRequestTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkRequestTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D556A561F21AAD800D4E4C9 /* NetworkRequestTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestTestUITests.m; sourceTree = "<group>"; };
 		6D556A581F21AAD800D4E4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D556A651F21B00E00D4E4C9 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
-		6D556A661F21B00E00D4E4C9 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
-		6D556A671F21B00E00D4E4C9 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		6D556A741F21B05A00D4E4C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6DE9F4AF1F56D56F00ECED8A /* MNetRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetRequestModel.h; sourceTree = "<group>"; };
 		6DE9F4B01F56D56F00ECED8A /* MNetRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetRequestModel.m; sourceTree = "<group>"; };
@@ -69,6 +66,9 @@
 		6DE9F4B21F56D56F00ECED8A /* MNetSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetSetting.m; sourceTree = "<group>"; };
 		6DE9F4B31F56D56F00ECED8A /* MNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNetworkUtils.h; sourceTree = "<group>"; };
 		6DE9F4B41F56D56F00ECED8A /* MNetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNetworkUtils.m; sourceTree = "<group>"; };
+		6DE9F4B91F56DCA300ECED8A /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		6DE9F4BA1F56DCA300ECED8A /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		6DE9F4BB1F56DCA300ECED8A /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		779944622D581677858F6281 /* Pods-NetworkRequestTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestTest/Pods-NetworkRequestTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				6DE9F4AE1F56D56F00ECED8A /* MNetwork */,
-				6D556A641F21B00E00D4E4C9 /* MBProgressHUD */,
 				6D556A341F21AAD800D4E4C9 /* AppDelegate.h */,
 				6D556A351F21AAD800D4E4C9 /* AppDelegate.m */,
 				6D556A371F21AAD800D4E4C9 /* ViewController.h */,
@@ -182,19 +181,10 @@
 			path = NetworkRequestTestUITests;
 			sourceTree = "<group>";
 		};
-		6D556A641F21B00E00D4E4C9 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				6D556A651F21B00E00D4E4C9 /* MBProgressHUD+MJ.h */,
-				6D556A661F21B00E00D4E4C9 /* MBProgressHUD+MJ.m */,
-				6D556A671F21B00E00D4E4C9 /* MBProgressHUD.bundle */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		6DE9F4AE1F56D56F00ECED8A /* MNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				6DE9F4B81F56DCA300ECED8A /* MBProgressHUD */,
 				6DE9F4AF1F56D56F00ECED8A /* MNetRequestModel.h */,
 				6DE9F4B01F56D56F00ECED8A /* MNetRequestModel.m */,
 				6DE9F4B11F56D56F00ECED8A /* MNetSetting.h */,
@@ -203,6 +193,16 @@
 				6DE9F4B41F56D56F00ECED8A /* MNetworkUtils.m */,
 			);
 			path = MNetwork;
+			sourceTree = "<group>";
+		};
+		6DE9F4B81F56DCA300ECED8A /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6DE9F4B91F56DCA300ECED8A /* MBProgressHUD+MJ.h */,
+				6DE9F4BA1F56DCA300ECED8A /* MBProgressHUD+MJ.m */,
+				6DE9F4BB1F56DCA300ECED8A /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,7 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D556A411F21AAD800D4E4C9 /* LaunchScreen.storyboard in Resources */,
-				6D556A691F21B00E00D4E4C9 /* MBProgressHUD.bundle in Resources */,
+				6DE9F4BD1F56DCA300ECED8A /* MBProgressHUD.bundle in Resources */,
 				6D556A3E1F21AAD800D4E4C9 /* Assets.xcassets in Resources */,
 				6D556A3C1F21AAD800D4E4C9 /* Main.storyboard in Resources */,
 			);
@@ -390,11 +390,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D556A681F21B00E00D4E4C9 /* MBProgressHUD+MJ.m in Sources */,
 				6D556A391F21AAD800D4E4C9 /* ViewController.m in Sources */,
 				6DE9F4B61F56D56F00ECED8A /* MNetSetting.m in Sources */,
 				6DE9F4B51F56D56F00ECED8A /* MNetRequestModel.m in Sources */,
 				6D556A361F21AAD800D4E4C9 /* AppDelegate.m in Sources */,
+				6DE9F4BC1F56DCA300ECED8A /* MBProgressHUD+MJ.m in Sources */,
 				6D556A331F21AAD800D4E4C9 /* main.m in Sources */,
 				6DE9F4B71F56D56F00ECED8A /* MNetworkUtils.m in Sources */,
 			);

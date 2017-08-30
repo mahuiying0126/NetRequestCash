@@ -8,6 +8,9 @@
 
 #import "MNetworkUtils.h"
 #import <CommonCrypto/CommonDigest.h>
+#import <MBProgressHUD.h>
+#import "MBProgressHUD+MJ.h"
+#import <AFNetworking.h>
 
 @implementation MNetworkUtils
 //md5加密

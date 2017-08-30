@@ -7,6 +7,9 @@
 //
 
 #import "MNetRequestModel.h"
+#import <MBProgressHUD.h>
+#import "MBProgressHUD+MJ.h"
+#import <AFNetworking.h>
 
 @implementation MNetRequestModel
 
