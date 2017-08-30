@@ -31,6 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     ///测试
+    //打法
 //    self.currentPage = 1;
 //    self.tableViewM = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64) style:UITableViewStylePlain];
 //    [self.view addSubview:self.tableViewM];
