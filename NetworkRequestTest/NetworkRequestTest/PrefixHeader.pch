@@ -12,8 +12,8 @@
 
 
 #endif /* PrefixHeader_pch */
-#import <MBProgressHUD.h>
-#import "MBProgressHUD+MJ.h"
-#import <AFNetworking.h>
+//#import <MBProgressHUD.h>
+//#import "MBProgressHUD+MJ.h"
+//#import <AFNetworking.h>
 #import <MJRefresh.h>
 #import "MNetSetting.h"
