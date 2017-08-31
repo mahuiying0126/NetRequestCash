@@ -7,7 +7,9 @@
 //
 
 #import "MNetRequestModel.h"
-
+#import <MBProgressHUD.h>
+#import "MBProgressHUD+MJ.h"
+#import <AFNetworking.h>
 @implementation MNetRequestModel
 
 + (void)netRequestSeting:(MNetSetting *)seting success:(void (^)(id responseData))success failure:(void (^)(NSError *error))failure{

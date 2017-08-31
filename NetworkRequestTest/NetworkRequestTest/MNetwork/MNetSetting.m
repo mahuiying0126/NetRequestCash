@@ -9,6 +9,8 @@
 #import "MNetSetting.h"
 #import "MNetRequestModel.h"
 #import "MNetworkUtils.h"
+#import <MBProgressHUD.h>
+#import "MBProgressHUD+MJ.h"
 
 @implementation MNetSetting
 
