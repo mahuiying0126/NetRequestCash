@@ -30,14 +30,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    //aaaa
     self.currentPage = 1;
     self.tableViewM = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64) style:UITableViewStylePlain];
     [self.view addSubview:self.tableViewM];
     self.tableViewM.delegate = self;
     self.tableViewM.dataSource = self;
     self.tableViewM.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
+    ///添加个 tag
     [self addTableViewRefresh];
     [self loadDataforUrl];
 }
